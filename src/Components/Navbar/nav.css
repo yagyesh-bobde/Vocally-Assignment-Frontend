@@ -1,0 +1,61 @@
+nav, .service , .nav_right, .services_all{
+    display : flex;
+    align-items: center;
+}
+
+
+
+
+nav {
+    justify-content: space-between;
+    background-color: var(--main-color);
+    height: 7vh;
+}
+.nav_left{
+    font-size: xx-large;
+}
+.nav_right{
+    color: var(--light-color);
+}
+
+span{
+    font-weight: 200;
+}
+
+.services_all{
+    justify-content: space-between;
+    gap: 25px;
+    margin-right: 25px;
+}
+
+.download{
+    border-color: var(--light-color) !important;
+    color: var(--light-color) !important;
+    padding: 10px 15px;
+    border-width: 2px !important;
+    font-weight: 650;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.service i {
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 480px) {
+    nav{
+        justify-content: center;
+    }
+    .nav_right {
+        display : none;
+    }
+    .nav_left{
+        font-size: x-large;
+    }
+}
+

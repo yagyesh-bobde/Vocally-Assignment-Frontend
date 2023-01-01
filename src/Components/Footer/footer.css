@@ -1,0 +1,86 @@
+/* SOCIALs */
+.all_socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+/* MAIN FOOTER */
+.main_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_footer_logo{
+    text-align: center;
+    width: 75%;
+}
+
+
+/* ABOUT FOOTER */
+
+.about_footer{
+    background-color: var(--main-color);
+    height: 20vh;
+}
+
+.footer_section_one ,.footer_section_two {
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.footer_section_two p , .service   {
+    color: var(--light-color);
+}
+
+@media screen and (max-width: 480px) {
+    .main_footer_logo{
+        display: none;
+    }
+    .main_footer{
+        justify-content: center !important;
+    }
+     .all_socials {
+        margin-top: 25px !important;
+    }
+    .footer_section_one ,.footer_section_two {
+        flex-direction: column;
+        justify-content: space-around !important;
+    }
+
+    .phone_socials{
+        width: 100%  !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 0 50px;
+    }
+    .phone_about_extra{
+        display: inline-flex;
+        padding: 0 50px;
+    }
+    .about_footer {
+        margin-bottom: 25px;
+        height: unset;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .phone_services{
+        display : flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 50px;
+    }
+    .socials_div{
+        width: 50%;
+    }
+}
+
+
+
