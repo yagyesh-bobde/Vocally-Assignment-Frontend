@@ -20,7 +20,10 @@ This is the frontend project repository for the vocally project assignment.
 - Concurrently ( developer dependency )
 
 ### Project Gallery
+#### Desktop View
+<img src="/1.png" width="400" height="350"  alt="" >
 
+#### MOBILE View
 
 ## More Links: 
 1. Backend Link : 
