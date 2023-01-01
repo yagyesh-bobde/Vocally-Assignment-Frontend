@@ -14,12 +14,12 @@ This is the frontend project repository for the vocally project assignment.
     $ npm run start
    ```
 #### Desktop View
-<div style="display:flex; flex-direction:column; justify-content:center;align-items:center; gap: 15px;">
+<div style="display:flex; flex-direction:column; justify-content:center;align-items:center; gap: 15px; width=100%">
 <img src="/1.png" width="640" height="375"  alt="" >
 <img src="/2.png" width="640" height="375"  alt="" >
 </div>
 #### MOBILE View
-<div style="display:flex; justify-content: space-evenly; gap: 5px; flex-wrap:wrap;">
+<div style="display:flex; justify-content: space-evenly; gap: 5px; flex-wrap:wrap; width=100%">
 <img src="/3.png" height="450" width="350"  alt="" >
 <img src="/4.png" height="450" width="350"  alt="" >
 <img src="/5.png" height="450" width="350"  alt="" >
