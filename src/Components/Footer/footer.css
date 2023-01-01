@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-around;
     gap: 10px;
+    width: 25%;
 }
 
 /* MAIN FOOTER */
@@ -22,6 +23,7 @@
 /* ABOUT FOOTER */
 
 .about_footer{
+    display: block !important;
     background-color: var(--main-color);
     height: 20vh;
 }
@@ -34,8 +36,16 @@
 }
 
 
+.about_footer_extra{
+    display: none !important;
+}
+
 .footer_section_two p , .service   {
     color: var(--light-color);
+}
+
+.phone_about_extra{
+    display: none !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -45,8 +55,9 @@
     .main_footer{
         justify-content: center !important;
     }
-     .all_socials {
+    .all_socials {
         margin-top: 25px !important;
+        width: 50%;
     }
     .footer_section_one ,.footer_section_two {
         flex-direction: column;
@@ -60,7 +71,9 @@
         padding: 0 50px;
     }
     .phone_about_extra{
-        display: inline-flex;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
         padding: 0 50px;
     }
     .about_footer {
@@ -77,8 +90,12 @@
         width: 100%;
         padding: 0 50px;
     }
-    .socials_div{
-        width: 50%;
+    
+    .phone_full{
+        width: 100%;
+    }
+    .footer_section_two{
+         margin-top:35px;
     }
 }
 

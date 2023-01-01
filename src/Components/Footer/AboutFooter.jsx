@@ -21,14 +21,19 @@ const AboutFooter = () => {
         </section>
         <section className="footer_section_two">
           <p>Open Auto @all rights resserved</p>
-          <div className="phone_about_extra d-flex justify-content-between service w-100">
+          <div className="phone_about_extra service">
             <p>Privacy policy</p>
             <p>Terms of use</p>
             <p>Cookie policy</p>
           </div>
-        <div style={{ padding: '0 50px' , width: '100%'}} >
-            <Socials />
+          <div className="socials_div all_socials phone_full" >
+            <i className="fa fa-brands fa-facebook"></i>
+            <i className="fa fa-brands fa-twitter"></i>
+            <i className="fa fa-brands fa-youtube"></i>
+            <i className="fa fa-brands fa-linkedin"></i>
+            <i className="fa fa-brands fa-instagram"></i>
           </div>
+
         </section>
     </div>
   )
