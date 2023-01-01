@@ -3,9 +3,9 @@
 This is the frontend project repository for the vocally project assignment.
 
 # Video Demonstration
-<center>
-   <iframe width="100%" height="500" src="https://drive.google.com/file/d/10vJnLiK8PPN-Hya1AZ0JBLcpUi_g-i4J/preview"></iframe>
-</center>
+
+   <iframe width="100%" height="100%" src="https://drive.google.com/file/d/10vJnLiK8PPN-Hya1AZ0JBLcpUi_g-i4J/view"></iframe>
+
 
 
 ## How to run the project locally?
