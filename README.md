@@ -13,18 +13,31 @@ This is the frontend project repository for the vocally project assignment.
    ```
     $ npm run start
    ```
+#### Desktop View
+<div style="display:flex; flex-direction:column; justify-content:center;align-items:center; gap: 15px;">
+<img src="/1.png" width="640" height="375"  alt="" >
+<img src="/2.png" width="640" height="375"  alt="" >
+</div>
+#### MOBILE View
+<div style="display:flex; justify-content: space-evenly; gap: 5px; flex-wrap:wrap;">
+<img src="/3.png" height="450" width="350"  alt="" >
+<img src="/4.png" height="450" width="350"  alt="" >
+<img src="/5.png" height="450" width="350"  alt="" >
+</div>
 
 ## External Packages 
 - Bootstrap
 - FontAwesome
 - Concurrently ( developer dependency )
 
-### Project Gallery
-#### Desktop View
-<img src="/1.png" width="400" height="350"  alt="" >
-
-#### MOBILE View
-
+## Tech Stack Used: 
+1. React js
+2. HTML
+3. CSS 
+4. Javascript / JSX
+5. Bootstrap
+6. 
 ## More Links: 
-1. Backend Link : 
+1. Backend Link : <a href="https://github.com/yagyesh-bobde/Vocally-Assignment-Backend" target="_blank" >https://github.com/yagyesh-bobde/Vocally-Assignment-Backend</a>
+2. Video Demonstration: <a href="https://drive.google.com/file/d/10vJnLiK8PPN-Hya1AZ0JBLcpUi_g-i4J/view?usp=share_link" target="_blank" >https://drive.google.com/file/d/10vJnLiK8PPN-Hya1AZ0JBLcpUi_g-i4J/view?usp=share_link</a>
 
