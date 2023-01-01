@@ -2,12 +2,6 @@
 
 This is the frontend project repository for the vocally project assignment.
 
-# Video Demonstration
-
-   <iframe width="100%" height="100%" src="https://drive.google.com/file/d/10vJnLiK8PPN-Hya1AZ0JBLcpUi_g-i4J/view"></iframe>
-
-
-
 ## How to run the project locally?
 1. Fork the repository/download the files and extract the files in your local machine
 2. Open a terminal in the project repository
